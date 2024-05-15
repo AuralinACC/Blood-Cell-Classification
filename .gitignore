@@ -1,0 +1,16 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual Environment
+venv/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data
+BCCD_Dataset/
+Complete-Blood-Cell-Count-Dataset/
+Blood-cell-segmentation-dataset/
+PBC_dataset_normal_DIB/
