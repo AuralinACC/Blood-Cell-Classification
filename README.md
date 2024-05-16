@@ -1,5 +1,22 @@
 # Blood Cell Classification Project
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Datasets](#datasets)
+    * [BCCD Dataset](#bccd-dataset)
+    * [Complete Blood Count (CBC) Dataset](#complete-blood-count-cbc-dataset)
+    * [PBC_dataset_Normal_DIB](#pbc_dataset_normal_dib)
+3. [Project Structure](#project-structure)
+4. [Setup and Installation](#setup-and-installation)
+5. [Usage](#usage)
+    * [Data Preparation](#data-preparation)
+    * [Model Training](#model-training)
+    * [Model Evaluation](#model-evaluation)
+6. [Acknowledgements](#acknowledgements)
+7. [License](#license)
+8. [Contact](#contact)
+
+## Introduction
 This project focuses on the classification of blood cells using a convolutional 
 neural network (CNN) model implemented with TensorFlow. The datasets used in 
 this project are BCCD Dataset, Complete Blood Count (CBC) Dataset, and 
