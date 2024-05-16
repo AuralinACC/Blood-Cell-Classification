@@ -1,16 +1,28 @@
-# Python
-*.pyc
-__pycache__/
+# Exclude everything
+*
 
-# Virtual Environment
-venv/
-.venv/
+# Allow specific directories and files
+!.gitignore
+!README.md
+!LICENSE
+!Blood_Cell_Classification.ipynb
+!requirements.txt
 
-# Jupyter Notebook
-.ipynb_checkpoints/
+# Model directory
+!model/
+!model/**
 
-# Data
-BCCD_Dataset/
-Complete-Blood-Cell-Count-Dataset/
-Blood-cell-segmentation-dataset/
-PBC_dataset_normal_DIB/
+# Data directories
+!BCCD_Dataset/
+!BCCD_Dataset/**
+!Complete-Blood-Cell-Count-Dataset/
+!Complete-Blood-Cell-Count-Dataset/**
+!PBC_dataset_normal_DIB/
+!PBC_dataset_normal_DIB/**
+!Blood-cell-segmentation-dataset/
+!Blood-cell-segmentation-dataset/**
+!unified_dataset/
+!unified_dataset/**
+
+# Ignore OS-specific files
+.DS_Store
