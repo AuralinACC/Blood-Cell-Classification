@@ -56,8 +56,10 @@ This dataset contains 17,092 images of individual normal cells, organized into e
 * Platelets
 * Immature granulocytes
 * Erythroblasts
+
 The images were acquired using the analyzer CellaVision DM96 in the Core Laboratory
 at the Hospital Clinic of Barcelona and annotated by expert clinical pathologists.
+
 #### Overview
 * **Image type**: JPEG
 * **Image size**: 360x363
